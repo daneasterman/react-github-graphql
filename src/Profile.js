@@ -63,7 +63,7 @@ class Profile extends Component {
 renderError() {
   return (
     <div>
-      Oops, something went wrong: {this.state.error.message}
+      Something went wrong: {this.state.error.message}
     </div>
   );
 }
@@ -90,9 +90,7 @@ renderError() {
         <p className="App-intro">{email}</p>
         <img src={avatarUrl} alt="github-profile-avatar"></img>
         <p className="App-intro">{location}</p>
-        <p className="App-intro">{websiteUrl}</p>
-
-        <h2 className="App-subtitle">Repositories:</h2>
+        <p className="App-intro">{websiteUrl}</p>        
 
       </div>
     );
