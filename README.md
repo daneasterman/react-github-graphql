@@ -3,13 +3,9 @@
 
 ## Install:
 
-1. Clone this repository:
+1. Clone this repository: `git clone https://github.com/daneasterman/react-github-graphql.git`
 
-`git clone https://github.com/daneasterman/react-github-graphql.git`
-
-2. Install all the project dependencies:
-
-`npm install`
+2. Install all the project dependencies: `npm install`
 
 ## Security Configuration and Github personal access token:
 
@@ -21,11 +17,12 @@ So, first create a `.env` file in the root of the directory.
 
 Then copy and paste in the file: `REACT_APP_GITHUB_TOKEN='Bearer [insert-your-long-alphanumeric-token-here]'`
 
-## Run:
+## Start the project:
 
 ```
 npm start
 ```
+(This should automatically launch the app in your default browser at `localhost:3000` )
 
 ## Background Information:
 
@@ -38,5 +35,4 @@ For initial testing and exploring the Github GraphQL API (including built-in doc
 [https://github.com/skevy/graphiql-app](https://github.com/skevy/graphiql-app)
 
 N.B: The main react code is split according to the two tasks required to complete this project: `Profile.js` and `Repositories.js`
-
 This code example uses my github username: `daneasterman` to display the data from the Github GraphQL API.
